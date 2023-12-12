@@ -111,6 +111,6 @@ s and homework time.
 - Save user credentials in the DB.
 - Retrieve user information from the DB.
 
-## Copyright
+## License
 
-Copyright © 2021
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
