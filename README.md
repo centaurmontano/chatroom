@@ -1,8 +1,29 @@
 # Console Social Network Application
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js Logo" width="100" height="100"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" width="100" height="100"/>
+![Node.js Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) ![MongoDB Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg)
 
 A console-based social network application developed using Node.js and MongoDB. Users can send real-time messages to each other, and the server supports at least 5 users conversing simultaneously. The server securely saves user credentials for future logins.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+  - [Objectives](#objectives)
+  - [Time Required](#time-required)
+  - [Required Material](#required-material)
+- [Specifications](#specifications)
+  - [Client-side Application](#client-side-application)
+    - [Main Page](#1-main-page)
+    - [Login](#2-login)
+    - [Register](#3-register)
+    - [User List (After Login)](#4-user-list-after-login)
+    - [Direct Message](#5-direct-message)
+    - [Quit](#6-quit)
+  - [Server-side Application](#server-side-application)
+  - [Key Functions](#key-functions)
+    - [Client-side Application](#client-side-application-1)
+    - [Server-side Application](#server-side-application-1)
+    - [MongoDB](#mongodb)
+- [Copyright](#copyright)
 
 ## Project Overview
 
@@ -92,5 +113,7 @@ Approximately 30 hours, including 5 in-class sessions and homework time.
 
 - Save user credentials in the DB.
 - Retrieve user information from the DB.
+
+## Copyright
 
 Copyright © 2021
