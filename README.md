@@ -1,7 +1,6 @@
-# chatroom
-Console Social Network: A Node.js and MongoDB-powered console app for real-time messaging. Securely stores user credentials, emphasizing MongoDB design and program flow. Achieve modern business communication needs. ⚙️🚀 #NodeJS #MongoDB
-
 # Console Social Network
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js Logo" width="100" height="100"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" width="100" height="100"/>
 
 ## Introduction
 This project develops a Node.js and MongoDB-based console social network application enabling real-time messaging among users. The server supports at least 5 users communicating securely.
