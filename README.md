@@ -4,8 +4,6 @@
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js Logo" width="100" height="100"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" width="100" height="100"/>
 
-## Table of Contents
-
 - [Project Overview](#project-overview)
   - [Objectives](#objectives)
   - [Time Required](#time-required)
