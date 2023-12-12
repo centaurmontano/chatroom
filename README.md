@@ -3,6 +3,7 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js Logo" width="100" height="100"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" width="100" height="100"/>
 
 A console-based social network application developed using Node.js and MongoDB. Users can send real-time messages to each other, and the server supports at least 5 users conversing simultaneously. The server securely saves user credentials for future logins.
+s and homework time.
 
 ## Table of Contents
 
@@ -117,4 +118,3 @@ Approximately 30 hours, including 5 in-class sessions and homework time.
 ## Copyright
 
 Copyright © 2021
-
