@@ -1,119 +1,127 @@
-# Console Social Network Application
+# Registration and Login System
 
-![Node.js Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) ![MongoDB Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg)
+A simple full-stack web application for user registration and login using Node.js and MongoDB.
 
-![Node.js Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg)
-![MongoDB Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg)
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js Logo" width="100" height="100"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" width="100" height="100"/>
 
+## Table of Contents
 
-- [Project Overview](#project-overview)
-  - [Objectives](#objectives)
-  - [Time Required](#time-required)
-  - [Required Material](#required-material)
+- [Required Material and Installation](#required-material-and-installation)
+- [Recommended Code Editors](#recommended-code-editors)
 - [Specifications](#specifications)
-  - [Client-side Application](#client-side-application)
-    - [Main Page](#1-main-page)
-    - [Login](#2-login)
-    - [Register](#3-register)
-    - [User List (After Login)](#4-user-list-after-login)
-    - [Direct Message](#5-direct-message)
-    - [Quit](#6-quit)
-  - [Server-side Application](#server-side-application)
-  - [Key Functions](#key-functions)
-    - [Client-side Application](#client-side-application-1)
-    - [Server-side Application](#server-side-application-1)
-    - [MongoDB](#mongodb)
-- [Copyright](#copyright)
+- [Key Functions](#key-functions)
+  - [Register](#register)
+  - [Login](#login)
+- [MongoDB](#mongodb)
+- [Detailed Guideline/Client Requirements](#detailed-guidelineclient-requirements)
+- [Setting Up and Running the Project](#setting-up-and-running-the-project)
+- [How to Install MongoDB and Connect MongoDB Compass to Localhost](#how-to-install-mongodb-and-connect-mongodb-compass-to-localhost)
+- [License](#license)
 
-## Project Overview
+## Required Material and Installation
 
-### Objectives
-
-- Interpret imaginary client’s requirements.
-- Design a solution based on requirements and specifications.
-- Implement web application architecture.
-- Develop a web application, web server, and a database.
-- Utilize debugging tools and error-handling techniques.
-- Validate the solution with test data from multiple credentials.
-- Integrate acquired knowledge.
-- Demonstrate understanding of MongoDB design.
-- Apply various program flow constructs.
-
-### Time Required
-
-Approximately 30 hours, including 5 in-class sessions and homework time.
-
-### Required Material
+To run this project, you will need the following:
 
 - [Node.js](https://nodejs.org/)
 - [MongoDB](https://www.mongodb.com/try/download/community)
+- [MongoDB Compass](https://www.mongodb.com/try/download/compass)
+
+## Recommended Code Editors
+
+While you can use any code editor of your choice, the following editors are commonly used and supported for this project:
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Sublime Text](https://www.sublimetext.com/)
+- [Atom](https://atom.io/)
 
 ## Specifications
 
-### Client-side Application
+This application allows users to register and login to a website. It is implemented using Node.js and MongoDB.
 
-#### 1. Main Page:
+## Key Functions
 
-- Presents a main menu with choices: Login, Register, and Quit.
-- User command format: `YourAppName 1) Login 2) Register 3) Quit > UserCommand`
+### Register
 
-#### 2. Login:
+- Allow users to register on the website.
+- Display a form to capture users' information.
+- Users enter a username and password.
+- Login credentials are saved to the MongoDB Database.
 
-- User types 1 to enter the login page.
-- Prompts for username and password.
-- Sends connection request with credentials.
+### Login
 
-#### 3. Register:
+- Allow users to log in to the website.
+- Display a form for users to enter their credentials.
+- Users enter their username and password.
+- Login credentials are matched with the ones saved in MongoDB.
+- Users will receive a message indicating whether the login was successful or not.
 
-- User types 2 to enter the register page.
-- Prompts for new username, password, and email.
-- Checks for existing username or email.
-- Successful registration prompts user to log in.
+## MongoDB
 
-#### 4. User List (After Login):
+The project uses MongoDB as the database to store user data.
 
-- Displays a list of users in alphabetical order.
-- Users can check online and offline status.
-- Direct message option to communicate with other users.
-- Option to quit.
+## Detailed Guideline/Client Requirements
 
-#### 5. Direct Message:
+- Users can choose either to register or login on the main page.
+- On the register page, users enter their username and password and click the submit button to save their information to the database.
+- Registration information is saved to the database.
+- On the login page, users enter their username and password and click submit to log in.
+- If the login credentials are correct, users receive a login successful message.
+- If the login credentials are incorrect, users receive a login failure message.
+- Links to the main page, login page, and register page are available on different pages.
 
-- User types 'm' to enter direct message mode.
-- Prompts to type the username of the other user.
-- If correct, UI changes to messaging window.
-- Type 'GoBackToMainMenu' to return to the main menu.
+## Setting Up and Running the Project
 
-#### 6. Quit:
+Follow these steps to set up and run the project:
 
-- Quits the application.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/centaurmontano/register-login-system.git
 
-### Server-side Application
+2. Install dependencies:
+cd your-repository
+npm install
 
-1. All data saved in MongoDB.
-2. Handles login requests, checks user credentials, and sends login status.
-3. Handles register requests, checks for existing username or email, and sends registration result.
+3. Start the application
+npm start 
 
-### Key Functions
+## How to Install MongoDB and Connect MongoDB Compass to Localhost
 
-#### Client-side Application:
+Follow these steps to install MongoDB and connect MongoDB Compass to localhost:
 
-- User registration
-- User login
-- User search
-- User messaging
+1. **Download and Install MongoDB Community Server:**
+   - Visit the [MongoDB Community Server download page](https://www.mongodb.com/try/download/community) and download the appropriate version for your operating system.
+   - Follow the installation instructions provided for your OS.
 
-#### Server-side Application:
+2. **Open Command Prompt (CMD):**
+   - Open the Command Prompt on your computer.
 
-- Save user credentials in the database for registration
-- Search user credentials in the database for login
-- Search username in the database for chatting
+3. **Navigate to MongoDB Bin Directory:**
+   - Copy the path of the bin folder in the MongoDB installation directory.
+   - Use the `cd` command to navigate to the bin directory in the Command Prompt. For example:
+     ```bash
+     cd C:\Program Files\MongoDB\Server\{version}\bin
+     ```
 
-#### MongoDB:
+4. **Start MongoDB Server:**
+   - In the Command Prompt, type the following command to start the MongoDB server:
+     ```bash
+     mongod
+     ```
 
-- Save user credentials in the DB.
-- Retrieve user information from the DB.
+5. **Open MongoDB Compass:**
+   - Launch MongoDB Compass on your computer.
 
-## Copyright
+6. **Connect to Localhost:**
+   - In MongoDB Compass, you should see the Connect screen.
+   - For the "Hostname" field, enter `localhost`.
+   - For the "Port" field, enter `27017`.
+   - Click the "Connect" button.
 
-Copyright © 2021
+7. **Verify Connection:**
+   - MongoDB Compass should connect to the local MongoDB server, and you will see the admin, config, and local databases.
+   - The connection string should be similar to `mongodb://localhost:27017`.
+
+Now you have successfully installed MongoDB and connected MongoDB Compass to localhost. You can use this local MongoDB server for your project.
+
+Make sure to customize the instructions based on your specific needs and provide any additional information that might be relevant for your users.
+
