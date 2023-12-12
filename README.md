@@ -40,10 +40,6 @@ s and homework time.
 - Demonstrate understanding of MongoDB design.
 - Apply various program flow constructs.
 
-### Time Required
-
-Approximately 30 hours, including 5 in-class sessions and homework time.
-
 ### Required Material
 
 - [Node.js](https://nodejs.org/)
