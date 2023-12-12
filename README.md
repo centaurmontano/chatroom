@@ -2,7 +2,9 @@
 
 ![Node.js Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg) ![MongoDB Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg)
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js Logo" width="100" height="100"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB Logo" width="100" height="100"/>
+![Node.js Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg)
+![MongoDB Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg)
+
 
 - [Project Overview](#project-overview)
   - [Objectives](#objectives)
